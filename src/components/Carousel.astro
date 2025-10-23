@@ -1,46 +1,48 @@
 ---
-type Item = { title: string; imagen: string; href?: string };
+type Item = { title: string; imagen: string; href?: string } 
+const base = import.meta.env.BASE_URL;
+
 
 const DEFAULT_ITEMS: Item[] = [
     {
         title: "Naruto Shippuden",
-        imagen: "/naruto.webp",
+        imagen: `${base}/naruto.webp`,
     },
     {
         title: "Moustro:Historia de Ed Gein",
-        imagen: "/mounstro.webp",
+        imagen: `${base}/mounstro.webp`,
     },
     {
         title: "Las muertas",
-        imagen: "/muertas.webp",
+        imagen: `${base}/muertas.webp`,
     },
     {
         title: "Merlina",
-        imagen: "/merlina.webp",
+        imagen: `${base}/merlina.webp`,
     },
     {
         title: "Las Guerreras del Kpop",
-        imagen: "/kpop.webp",
+        imagen: `${base}/kpop.webp`,
     },
     {
         title: "Godzilla Kong",
-        imagen: "/godzilla.webp",
+        imagen: `${base}/godzilla.webp`,
     },
     {
         title: "Caramelo",
-        imagen: "/caramelo.webp",
+        imagen: `${base}/caramelo.webp`,
     },
     {
         title: "Rosario Tijeras",
-        imagen: "/calamar.webp",
+        imagen: `${base}/calamar.webp`,
     },
     {
         title: "Nadie nos vio partir",
-        imagen: "/partir.webp",
+        imagen: `${base}/partir.webp`,
     },
     {
         title: "El Juego del Calamar",
-        imagen: "/calamar.webp",
+        imagen: `${base}/calamar.webp`,
     },
 ];
 
